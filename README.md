@@ -21,6 +21,9 @@ I'm a passionate web developer specializing in **full stack development** with t
 A visually engaging static website built with React and **Framer Motion** for subtle, smooth animations and transitions.  
 *Role: Developed the frontend; focused on aesthetic and interactive user experience.*
 
+**Performance Optimization:**  
+Implemented asset preloading directly in the HTML, allowing React to use direct paths for hero section images. This guarantees smooth initial UI rendering and prevents flicker or sluggish loading of visuals after site load.
+
 ---
 
 ### 2. [High Tribe – Chef Meal Booking & Services Platform (Admin Dashboard)](https://admin.hightribe.cloud/)
