@@ -40,13 +40,20 @@ A dynamic platform where users can book chef-prepared meals based on live availa
 ---
 
 ### 3. **TDCP – Electronic Ticketing System (Electron App)**
-A cross-platform desktop app deployed locally at tourist spots, built with **Electron**:
+A cross-platform desktop app deployed locally at tourist spots, built with **Electron**, **Vite + React**, and **Node.js**:
 
-- **Backend Service:** Manages queues and ticket assignments
-- **Central Cloud Service:** Source of truth for all ticketing data
-- **Desktop Client:** Seamlessly interacts with backend and cloud
+- **Backend Services Architecture:**
+  1. **E-Ticketing App Backend:** Built with Node.js + SQLite; manages reservations and ticket assignments.
+  2. **Queue Management System (QMS):** Assigns queue numbers to bookings from the e-ticketing app.
+  3. **Central Cloud Service:** Hosted on cPanel with Node.js + SQL; serves as the source of truth and synchronizes data between local apps.
 
-*Role: Led the development and management of all three services for this project.*
+- **Technical Challenges & Solutions:**
+  - Handled **data syncing issues** between local SQLite databases and the cloud SQL database.
+  - Resolved database errors and foreign key conflicts by dropping FK constraints on the cloud DB and enforcing **business rules at the application/service layer**.
+  - Implemented a **Role-Based Access System** allowing the admin to create, read, update, and delete permissions for different roles, ensuring secure and flexible access management.
+  - Ensured **seamless synchronization** between offline desktop apps and the central cloud.
+
+*Role: Led the development and management of all three services, ensuring smooth operation across local and cloud systems.*
 
 ---
 
