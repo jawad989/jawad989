@@ -1,6 +1,6 @@
-# 👋 Hi, I'm Jawad!
+# Hi, I'm Jawad!
 
-### 🚀 Full Stack Web Developer | MERN & Electron
+### Full Stack Web Developer | MERN & Electron
 
 I'm a passionate web developer specializing in **full stack development** with the **MERN stack** (MongoDB, Express, React, Node.js). My main programming language is **JavaScript**, and I love building robust, dynamic applications—both for the web and desktop using **Electron**.
 
