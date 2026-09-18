@@ -15,31 +15,7 @@ I'm a passionate web developer specializing in **full stack development** with t
 
 ---
 
-## 📚 Featured Projects
-
-### 1. [Almukhtara Group (Frontend Static Site)](https://almokhtaragroup.com/)
-A visually engaging static website built with React and **Framer Motion** for subtle, smooth animations and transitions.  
-*Role: Developed the frontend; focused on aesthetic and interactive user experience.*
-
-**Performance Optimization:**  
-Implemented asset preloading directly in the HTML, allowing React to use direct paths for hero section images. This guarantees smooth initial UI rendering and prevents flicker or sluggish loading of visuals after site load.
-
----
-
-### 2. [High Tribe – Chef Meal Booking & Services Platform (Admin Dashboard)](https://admin.hightribe.cloud/)
-A dynamic platform where users can book chef-prepared meals based on live availability and access additional services like **Tours** and **Events**.
-
-**Backend & Admin Dashboard Highlights:**
-- Architected and implemented the backend and dashboard for managing chef availability, reservations, and service bookings.
-- Solved race conditions in the reservation system for reliable bookings.
-- Built robust payment handling: addressed edge cases where Stripe payment succeeds but API reservation fails.
-- Designed and implemented a flexible discount module:
-  - **Default Discount:** Automatically applied
-  - **Code Discount:** User-entered codes for percentage-based discounts
-
----
-
-### 3. **TDCP – Electronic Ticketing System (Electron App)**
+### 1. **TDCP – Electronic Ticketing System (Electron App)**
 A cross-platform desktop app deployed locally at tourist spots, built with **Electron**, **Vite + React**, and **Node.js**:
 
 - **Backend Services Architecture:**
